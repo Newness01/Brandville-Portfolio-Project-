@@ -22,7 +22,7 @@ a {
 h1{
     color: #000000;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 100%;
 
 }
@@ -68,3 +68,149 @@ box-shadow: 0 6px 14px  rgba(2, 6, 23, 0.04);
 transition: background .28s, box-shadow .28s;
 }
 
+.hero {
+    width: 1198px;
+    height: 779.03px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 5rem;
+    padding: 5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    background: linear-gradient(180deg, var(green), rgba(255, 255, 255, 0.02));
+}
+
+.hero-btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    border: 2px soild #e2e8f0;
+    color: #2fa8e0;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.hero-left h2 {
+    font-size: 2rem;
+color: #000000;
+}
+
+.hero-left h4 {
+    font-size: 24px;
+color: #404040;
+font-weight: 700;
+font: 'Roboto';
+}
+
+.hero-left p {
+font-size: 1.15rem;
+line-height: 1.8;
+color: #475569;
+font-weight: 500;
+}
+
+.card-image {
+ padding: 1rem;
+ border-radius: 12px;
+ background:linear-gradient(180deg, var(blue), rgba(255, 255, 255, 0.02)) ;
+ box-shadow: 0 6px 20px rgba(2, 6, 23, 0.08);
+ text-align: center;   
+}
+
+.card-image img {
+    width: 409px;
+    height: 459px;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 6px solid rgba(255, 255, 255, 0.02);
+}
+
+.view {
+    padding: 25px 53px;
+    border-radius: 15px;
+    background: rgba(47, 168, 224, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1) ;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 0 4px 14px rgba(14, 165, 233, 0.3);
+}
+
+.touch {
+    padding: 25px 53px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(249, 248, 255, 1);
+    color: rgba(0, 0, 0, 1) ;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0  2px 6px rgba(0, 0, 0, 0.25);
+margin-left: 1.5rem;
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.stats {
+    padding: 1.5rem;
+    background: #f8fafc;
+    border-radius: 16px;
+    border: 2px solid #e2e8f0;
+}
+
+.stat-numb {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2fa8e0;
+    margin-bottom: 0.4rem;
+}
+
+
+.stat-experience {
+    font-size: 0.9rem;
+    color: #475569;
+    font-weight: 500;
+}
+
+
+.project-section {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.header {
+    text-align: center;
+
+}
+
+.port {
+    color: white;
+    display: inline-block;
+    background: rgba(47, 168, 224, 1);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.featured {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: -1px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: rgba(54, 53, 53, 1);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-weight: 400;
+
+}
